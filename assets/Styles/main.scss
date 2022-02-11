@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    place-content: center;
+}
+.wrapper{
+    margin-top: 20%;
+    width: 400px;
+    height: 100%;
+    background: antiquewhite;
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+input, select, p, button {
+    font-size: 1.2rem;
+}
+
+input, select, button{
+    margin-bottom: 5%;
+    height: 30px;
+}
+button{
+    margin-top: 10%;
+}
+
+#output{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px darkgray;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/Styles/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Trinkgeldrechner</h1>
+        <p>Wie hoch war die Rechnung?</p>
+        <input type="number" name="priceInput" id="priceInput" placeholder="Rechnungsbetrag Hinweis: Komma mit '.'">
+        <p>Wie viele menschen teilen sich die Rechnung?</p>
+        <input type="number" name="numOfPeop" id="numOfPeop">
+        <select name="serviceRate" id="serviceRate">
+            <option value="0">Wie war der Service?</option>
+            <option value="1">Schlecht</option>
+            <option value="2">Mittelmäßig</option>
+            <option value="3">Super!</option>
+        </select>
+        <button onclick="calcTip()">Berechne</button>
+        <div id="output"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
